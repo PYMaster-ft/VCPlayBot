@@ -76,7 +76,7 @@ def song(client, message):
         )
         m.delete()
     except Exception as e:
-        m.edit("❌ Error")
+        m.edit("❌ Er")
         print(e)
 
     try:
